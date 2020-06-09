@@ -13,7 +13,7 @@
       "Package": "data.table",
       "Version": "1.12.8",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Hash": "cd711af60c47207a776213a368626369"
     },
     "glue": {
