@@ -1,6 +1,7 @@
 library(stringr)
-library(data.table)
+library(dplyr)
 
 x <- c("why", "video", "cross", "extra", "deal", "authority")
-d = data.table(x)
-d[, l := str_length(x)][]
+d = tibble(x) %>%
+  mutate(l = str_length(x))
+d
